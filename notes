@@ -1,0 +1,44 @@
+Codewithkyrian\Transformers\Models\Auto\PretrainedMixin::fromPretrained
+
+Instantiate a model from a pretrained model configuration.
+
+<?php
+public static function fromPretrained(
+    string $modelNameOrPath,
+    bool $quantized = true,
+    ?array $config = null,
+    ?string $cacheDir = null,
+    string $revision = 'main',
+    ?string $modelFilename = null,
+    ?callable $onProgress = null
+): PretrainedModel { }
+@param string $modelNameOrPath — The model name or path.
+
+@param bool $quantized — Whether to use a quantized model.
+
+@param array|null $config — The configuration for the model.
+
+@param string|null $cacheDir — The cache directory to save the model in.
+
+@param string $revision — The revision of the model.
+
+@param string|null $modelFilename — The filename of the model.
+
+@param null|callable $onProgress
+
+@return PretrainedModel — The instantiated pretrained model.
+
+
+
+@import '../assets/backend/css/bulk-style.css';
+@import '../assets/backend/css/color-1.css';
+@import '../assets/backend/css/color-2.css';
+@import '../assets/backend/css/color-3.css';
+@import '../assets/backend/css/color-4.css';
+@import '../assets/backend/css/color-5.css';
+@import '../assets/backend/css/color-6.css';
+@import '../assets/backend/css/fontawesome-min.css';
+@import '../assets/backend/css/iconly-icon.css';
+@import '../assets/backend/css/rating.css';
+@import '../assets/backend/css/style.css';
+@import '../assets/backend/css/themify.css';

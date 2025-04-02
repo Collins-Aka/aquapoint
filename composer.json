@@ -10,10 +10,13 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "codewithkyrian/transformers": "*",
         "doctrine/dbal": "^4.2",
         "giggsey/libphonenumber-for-php": "^9.0",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1",
+        "laravel/ui": "^4.6",
+        "sean-luis/ibm-php-sdk": "dev-main",
         "twilio/sdk": "^8.4"
     },
     "require-dev": {
@@ -64,10 +67,12 @@
         }
     },
     "config": {
+        "process-timeout": 600,
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true,
         "allow-plugins": {
+            "codewithkyrian/transformers-libsloader": true,
             "pestphp/pest-plugin": true,
             "php-http/discovery": true
         }
